@@ -1,0 +1,253 @@
+@charset "UTF-8";
+/* CSS Document */
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+h1, h2 {
+	font-family: 'Lobster', cursive;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 400;
+}
+/*------------------------*/
+header {
+	width: 80%;
+	text-align: center;
+	margin: 0 auto;
+}
+.header-wrap {
+	padding: 40px 0;
+}
+.faq {
+	float: left;
+	width: 160px;
+	text-align: left;
+}
+.my-cart {
+	float: right;
+	width: 80px;
+	text-align: right;
+}
+.sign-up {
+	float: right;
+	width: 80px;
+}
+.faq, .my-cart, .sign-up {
+	margin-top: 10px;
+}
+header ul {
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 40px;
+}
+header li {
+	list-style: none;
+	letter-spacing: 0.03em;
+}
+/*------------------------*/
+.big-img {
+	width: 100%;
+	height: 300px;
+	text-align: center;
+	background: lightgrey;
+}
+.big-img h2 {
+	padding-top: 208px;
+	font-size: 2.6em;
+	line-height: 1em;
+}
+.big-img p {
+	padding-top: 10px;
+}
+/*------------------------*/
+main {
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+}
+/*------------------------*/
+.video-sec {
+	width: 100%;
+	height: 320px;
+	padding: 40px 0;
+	margin: 0 auto;
+	border-bottom: 1px solid lightgrey;
+}
+.video {
+	width: 70%;
+	height: 100%;
+	background: grey;
+	float: left;
+	border-radius: 10px;
+	overflow: hidden;
+}
+.video-art-wrap {
+	width: 30%;
+	float: right;
+	box-sizing: border-box;
+	padding-right: 0;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.video-art-wrap article {
+	width: calc(100% - 20px);
+	height: 300px;
+	margin-left: 20px;
+	padding: 20px 30px;
+	text-align: left;
+	box-sizing: border-box;
+	background-color: #EDEDED;
+}
+.avatar {
+	width: 70px;
+	height: 70px;
+	background: grey;
+	border-radius: 50%;
+	float: left;
+}
+.video-art-wrap p {
+	clear: both;
+	margin-top: 30px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 0.9em;
+}
+.video-art-wrap h4 {
+	margin: 0 auto;
+	margin-top: 40px;
+	width: 90%;
+	height: 20px;
+	background: lightgrey;
+	padding: 10px;
+	text-align: center;
+	line-height: 20px;
+	font-size: 0.85em;
+}
+.video-art-wrap h3, .video-art-wrap h5 {
+	margin-left: calc(70px + 10px);
+}
+.video-art-wrap h3 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 0.9rem;
+	font-weight: bold;
+	line-height: 1.7;
+	margin-top: 12px;
+}
+.video-art-wrap h5 {
+	font-size: 0.6em;
+}
+/*------------------------*/
+.trip {
+	width: 100%;
+	clear: both;
+	padding: 40px 0;
+	margin: 0 auto;
+	border-bottom: 1px solid lightgrey;
+}
+.trip h2 {
+	line-height: 1;
+	font-size: 2.5em;
+	color: #292929;
+}
+.trip-wrap {
+	display: flex;
+	justify-content: space-between;
+}
+.trip .left, .trip .right {
+	width: calc(50% - 10px);
+	text-align: left;
+	flex: 1 1 calc(50% -10px);
+}
+.trip .left p:first-child, .trip .right p:first-child {
+	margin: 40px 0 20px;
+	font-family: 'Lobster', cursive;
+}
+.trip .left article, .trip .right article {
+	background: lightgrey;
+	width: 100%;
+	height: 280px;
+	padding: 20px;
+	box-sizing: border-box;
+}
+.trip .left p:last-child, .trip .right p:last-child {
+	margin-top: 10px;
+	font-size: 0.8em;	
+}
+.trip h3 {
+	text-transform: uppercase;
+	font-size: 0.9em;
+	margin-top: 180px;
+	letter-spacing: 0.1em;
+}
+/*------------------------*/
+.extra {
+	width: 100%;
+	padding: 40px 0;
+	text-align: left;
+	display: flex;
+	justify-content: space-between;
+}
+.extra article {
+	width: calc(50% - 10px);
+	height: 200px;
+	background: lightgrey;
+	box-sizing: border-box;
+}
+.extra .producer {
+	width: 50%;
+	height: 100%;
+	float: left;
+	background: grey;
+	padding: 20px;
+	box-sizing: border-box;
+	color: white;
+	font-family: 'Lobster', cursive;
+}
+.extra .producer h3 {
+	margin-top: 140px;
+}
+.extra .producer-desc {
+	width: 50%;
+	height: 100%;
+	float: right;
+	padding: 20px;
+	box-sizing: border-box;
+}
+.extra .producer-desc h4{
+	font-family: 'Lobster', cursive;
+	font-size: 1.3em;
+}
+.extra .producer-desc > p {
+	margin-top: 35px;
+	font-size: 0.95em;
+}
+.extra .producer-desc p:last-child {
+	font-size: 0.8em;
+	margin-top: 10px;
+}
+.extra .feature {
+	padding: 20px;
+	box-sizing: border-box;
+}
+.extra .feature h3 {
+	text-transform: uppercase;
+	font-size: 0.9em;
+	margin-top: 98px;
+	letter-spacing: 0.1em;
+}
+.extra .feature p {
+	font-size: 0.8em;
+	margin-top: 10px;
+}
+/*------------------------*/
+footer {
+	width: 80%;
+	margin: 0 auto;
+}
+footer p {
+	margin-left: 10px;
+	color: grey;
+}
